@@ -1,0 +1,36 @@
+{
+  "routeAssets": {
+    "index": {
+      "chunkIds": [
+        "408",
+        "783",
+        "535",
+        "493",
+        "913",
+        "410"
+      ],
+      "assets": [
+        "/static/js/lib-react.f988546614.js",
+        "/static/js/lib-router.f15f95f463.js",
+        "/static/js/lib-polyfill.284181fe5d.js",
+        "/static/js/913.5deea2b3da.js",
+        "/static/js/index.90a94319ac.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "page": {
+      "chunkIds": [
+        "655",
+        "807"
+      ],
+      "assets": [
+        "/static/js/async/655.bb2991954f.js",
+        "/static/css/async/page.d7915515f1.css",
+        "/static/js/async/page.4dc5b4ca45.js"
+      ],
+      "referenceCssAssets": [
+        "/static/css/async/page.d7915515f1.css"
+      ]
+    }
+  }
+}
