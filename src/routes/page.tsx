@@ -23,6 +23,9 @@ const Index = () => (
       <p className="description">
         Get started by editing <code className="code">src/routes/page.tsx</code>
       </p>
+      <p className="description">
+        SSR check: <a href="/ssr">open the SSR probe page</a>
+      </p>
       <div className="grid">
         <a
           href="https://modernjs.dev/guides/get-started/introduction.html"

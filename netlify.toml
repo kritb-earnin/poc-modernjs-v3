@@ -1,12 +1,12 @@
 [build]
-  command = "pnpm run build"
+  command = "pnpm modern deploy"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
   PNPM_VERSION = "9"
 
-[[redirects]]
-  from = "/*"
-  to = "/html/index/index.html"
-  status = 200
+[functions]
+  directory = ".netlify/functions"
+  node_bundler = "none"
+  included_files = [".netlify/functions/**"]
